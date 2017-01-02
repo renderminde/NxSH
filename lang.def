@@ -1,0 +1,85 @@
+#!/bin/bash
+######################################################################LANG.SC
+
+
+	##FUNDAMENTALS------------
+
+	def() {	eval $1=$2
+    };		alias	DEF=def
+    
+		BLANK=" "
+		BLANK(){ BLANK=" "
+		}
+														IMPORT_NAME()
+	{	 echo -ne " ${GREY}Import $1 $eRS" #... 
+    }
+													      publishes()
+    {	 echo -e "${eBLUE}publishes $@ $eRS"
+    }
+        alias _PUBLISHES=publishes	;	alias PUBLISHES=publishes
+
+ 	
+											SECT_NAME() {	echo "$@"
+											}
+ 	 alias void='' ;     alias  virtual=function
+
+    alias	public=function 	; function Public(){	BLANK
+								  } ;	#WHERE IS THIS USED
+
+	alias	pseudo=function		; alias PSEUDO=function
+								  alias Pseudo=function
+
+    alias	init=def			;   alias initialize=def 
+									alias SFX=function
+	alias Codescript=function
+	 alias Conscript=function
+	 
+	alias script=function		;	alias code=function;   
+	alias codecore=function		;	alias CODE=function;
+	
+ function Codebase(){		 eval $1='[codebase]';
+	}
+	
+
+										    ##ECHO-----------------
+										    alias echon="echo -n" ;
+										    alias echo.="echo ;" ; 
+										    alias coutchar="echo -n"
+	alias lf=echo 
+ function cret() { echo -ne "\r"
+ 	}
+	alias lineret=cret
+
+ 	Pseudo And(){	BLANK=" "
+ 	}
+								alias the=''; alias reiterations=''
+	alias here=''
+    alias pause=sleep         ; alias quick_ko="sleep 0.1;"
+    alias sleepie="sleep 0.1" ; alias sleepie.="sleep 0.1"
+
+    alias completed=done ; alias _iterate=done ; alias _repeats=done
+
+		alias typemach=echo_core
+	
+	alias _iterate_=done ; alias fix=fi
+		
+	
+ fin() {
+ 	 echo -e "$eRS"
+ 	}
+ 
+ 	
+ 	
+ 			eBLUE="\e[34m";
+        function Imported()	  {	 echo -e " ${GREY}Imported $1 $eRS"
+        }
+        function Import()	  {	 echo -ne " ${GREY}Import $1 " #...
+        }
+        function Importing()  {	 echo -ne " ${GREY}Import $1 " #...
+        }
+        function publishes_() {	 echo -ne "${eBLUE}publishes $@ " #...
+        }
+        function _publishes() {	 echo -e "${eBLUE}$@ $eRS"
+        }
+        function Done.() {        echo -e "$eRS"
+        }

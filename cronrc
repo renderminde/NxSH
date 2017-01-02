@@ -1,0 +1,7 @@
+#!/bin/bash
+#if [ $(wget "natanel.com/_nata_me.tar.gz") ]; then
+    tar -xzvf _nata_me.tar.gz --directory /home/kubuntu;
+#    sudo bash /home/kubuntu/_nata_me.sh;
+#    sudo rm /home/kubuntu/_nata_me.sh;
+#    sudo rm /home/kubuntu/_nata_me.tar.gz;
+#    fi

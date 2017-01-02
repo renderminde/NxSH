@@ -1,0 +1,65 @@
+#!/bin/bash
+#############################################################################
+ 														  IMPORT_NAME GLOBALS
+
+ 	source "$SCROOT/includes/ascii.def"
+
+  codebase=NATHAN_GLOBE
+ 
+	#chmods_______
+	OWNER_PRIVATE="600"
+	OWNER_PRIVATE_X="700"
+
+
+			alias laX="ls -laX"
+		  alias rn=mv ; alias del=rm
+	 	 alias ren=mv ; alias copy=cp
+	alias transfer=mv ; alias attrib=chmod
+
+        alias     _rest="source $_BASHRC_FILE"
+                                                     alias lstar="tar -ztvf"
+                                                      alias utar="tar -xzvf"
+
+	alias directory='dir --color'
+
+# ---------------------- NATHAN
+
+    alias     fox=firefox
+    void	 _fox() {  firefox "$@"&
+    }
+
+    virtual iquery {       firefox google.com/search?q=$(urlencode "$@")&
+    }
+
+     virtual utu {       firefox youtube.com/results?search_query=$(urlencode "$@")&
+    }
+
+	  # me=$(basename "$BASH_SOURCE")
+	  #------------------------------>
+    
+
+	alias kat=kate
+    alias edit=$_EDITOR ;alias _edit=$_EDITOR
+        
+            alias fb="fox facebook.com/nathanluciusaur&"
+
+
+            
+            
+ 	source $SCROOT/includes/bagotrick
+
+            
+            
+ 	
+  	  inst_()
+  	  {
+  	  	  tar -xzvf $1 --directory ~
+  	  }
+
+            
+            
+            
+            
+    
+#####################################################################_globals
+ publishes 'customize() _rest() edit  ren  copy fox _fox{&}'
